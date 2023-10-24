@@ -2,14 +2,14 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-class App2 extends StatefulWidget {
-  const App2({super.key});
+class StreamSample2 extends StatefulWidget {
+  const StreamSample2({super.key});
 
   @override
-  State<App2> createState() => _App2State();
+  State<StreamSample2> createState() => _StreamSample2State();
 }
 
-class _App2State extends State<App2> {
+class _StreamSample2State extends State<StreamSample2> {
   late StreamSubscription subscription;
 
   @override
